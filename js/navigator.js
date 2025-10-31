@@ -36,23 +36,17 @@ const router = (function ($) {
         },
         '/about': {
             url: 'ajax/pages/about.html',
-            css: [
-                'assets/css/about.css?v=11012025'
-            ]
 
+
+        }, 
+        '/buy-gold': {
+            url: 'ajax/pages/buy-gold.html'
         },
-
-        '/resources': {
-            url: 'ajax/pages/resources.html?v=11012025',
+        '/sell-gold': {
+            url: 'ajax/pages/sell-gold.html'
         },
         '/contact': {
-            url: 'ajax/pages/contact.html',
-            js: [
-                'assets/js/contact.js?v=11012025'
-            ],
-            css: [
-                'assets/css/contact.css?v=10262025'
-            ]
+            url: 'ajax/pages/contact.html'
         },
 
         default: {

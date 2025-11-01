@@ -117,6 +117,7 @@ const router = (function ($) {
         }
 
         $contentContainer.load(urlToLoad, function (response, status, xhr) {
+            $(window).scrollTop(0);
             if (status === "error") {
                 const errorMsg = (xhr.status === 404)
                     ? `<div class="text-center"><h1>404 Not Found</h1><p>Page file not found</p></div>`

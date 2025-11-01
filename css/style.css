@@ -236,6 +236,14 @@ ul {
         display: none; /* Hide desktop nav */
     }
 
+    .mobile-nav {
+    display: block; /* Hidden by default, shown by JS/media query */
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
     .menu-toggle {
         display: block; /* Show mobile menu button */
     }

@@ -45,6 +45,9 @@ const router = (function ($) {
         '/sell-gold': {
             url: 'ajax/pages/sell-gold.html'
         },
+        '/pawn-gold': {
+            url: 'ajax/pages/pawn-gold.html'
+        },
         '/contact': {
             url: 'ajax/pages/contact.html'
         },

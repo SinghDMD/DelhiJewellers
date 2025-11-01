@@ -4,8 +4,7 @@
     --color-secondary: #333; /* Dark Text/Background */
     --color-light: #FFF;
     --color-border: #E0E0E0; /* Light Gray for borders */
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Roboto', sans-serif;
+   
 }
 
 * {
@@ -15,14 +14,14 @@
 }
 
 body {
-    font-family: var(--font-body);
+  
     line-height: 1.6;
     color: var(--color-secondary);
     background-color: var(--color-light);
 }
 
 h1, h2, h3 {
-    font-family: var(--font-heading);
+    
     color: var(--color-secondary);
     text-align: center;
     margin-bottom: 1rem;
@@ -109,7 +108,7 @@ ul {
 
 /* Hero Section */
 .hero {
-    background: url('placeholder_hero_background.jpg') center/cover no-repeat;
+    background: url('../img/home/home(1).png') center/cover no-repeat;
     height: 80vh; /* Taller banner */
     display: flex;
     justify-content: center;

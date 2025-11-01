@@ -100,8 +100,8 @@ ul {
 
 /* Hero Section */
 .hero {
-    background: url('placeholder_hero_background.jpg') center/cover no-repeat;
-    height: 70vh;
+    background: url('../img/home/home(1).png') center/cover no-repeat;
+    height: 80vh; /* Taller banner */
     display: flex;
     justify-content: center;
     align-items: center;

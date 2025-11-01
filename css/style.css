@@ -76,7 +76,7 @@ ul {
 }
 
 .mobile-nav {
-    display: none; /* Hidden by default, shown by JS/media query */
+    display: none;
     position: absolute;
     top: 0;
     left: 0;

@@ -237,11 +237,13 @@ ul {
     }
 
     .mobile-nav {
-    display: block; /* Hidden by default, shown by JS/media query */
-    position: relative;
+    display: none; /* Hidden by default, shown by JS/media query */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    background-color: var(--color-secondary);
+    z-index: 10;
 }
 
     .menu-toggle {

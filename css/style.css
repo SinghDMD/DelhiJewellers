@@ -46,8 +46,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
-    border-bottom: 1px solid #eee;
 }
 
 .logo h1 a {
@@ -353,9 +351,7 @@ ul {
 /* Footer */
 .main-footer {
     background-color: var(--color-secondary);
-    color: var(--color-light);
-    padding: 3rem 5%;
-    font-size: 0.9rem;
+
 }
 
 .footer-content {

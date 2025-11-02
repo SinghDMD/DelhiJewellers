@@ -98,6 +98,9 @@ ul {
     text-align: center;
 }
 
+#content-container {
+    background-color: rgb(255 165 7 / 43%);
+}
 /* Hero Section */
 .hero {
     background: url('../img/home/home(1).png') center/cover no-repeat;
@@ -344,6 +347,8 @@ ul {
     background-color: var(--color-secondary);
     color: var(--color-light);
 }
+
+
 
 /* Footer */
 .main-footer {

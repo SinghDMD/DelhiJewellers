@@ -220,6 +220,10 @@
         </div>
         <div class="copyright">
             <p>&copy; 2025 Delhi Jewellers. All rights reserved.</p>
+            <p><a href="tos.txt" target="_blank" class="text-light">Terms of Service</a> | 
+                <a href="privacy-policy.txt" target="_blank" class="text-light">Privacy Policy</a>
+            </p>
+
         </div>
     </footer>
 
@@ -228,7 +232,7 @@
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-               
+
                 <div class="modal-body p-4">
                     Loading...
                 </div>
@@ -297,10 +301,10 @@
 
         $('#hoursModal').on('show.bs.modal', function (event) {
             var button = $(event.relatedTarget);
-            var remoteUrl = button.data('remote'); 
+            var remoteUrl = button.data('remote');
             var modal = $(this);
             modal.find('.modal-body').load(remoteUrl, function () {
-              
+
             });
         });
 

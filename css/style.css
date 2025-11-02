@@ -3,8 +3,8 @@
     --color-primary: #D4AF37; /* Elegant Gold */
     --color-secondary: #333; /* Dark Text/Background */
     --color-light: #FFF;
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Roboto', sans-serif;
+    --font-heading: "Crimson Text", serif;
+    --font-body: "Crimson Text", serif;
 }
 
 * {
@@ -99,7 +99,7 @@ ul {
 }
 
 #content-container {
-    background-color: rgb(255 165 7 / 43%);
+    background-color: #d4af3761;
 }
 /* Hero Section */
 .hero {

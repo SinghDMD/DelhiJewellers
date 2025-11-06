@@ -101,7 +101,7 @@ ul {
 }
 /* Hero Section */
 .hero {
-    background: url('../img/home/home(1).png') center/cover no-repeat;
+    background: url('../img/home/home-hero.png') center/cover no-repeat;
     height: 80vh; /* Taller banner */
     display: flex;
     justify-content: center;

@@ -122,22 +122,22 @@
         }
     </style>
     </style>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TYBYZ76H6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-0TYBYZ76H6');
-  </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TYBYZ76H6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-0TYBYZ76H6');
+    </script>
 
-<link rel="prefetch" href="/ajax/pages/about.html">
-<link rel="prefetch" href="ajax/pages/buy-gold.html">
-<link rel="prefetch" href="ajax/pages/sell-gold.html">
-<link rel="prefetch" href="ajax/pages/pawn-gold.html">
-<link rel="prefetch" href="ajax/pages/contact.html">
-<link rel="prefetch" href="ajax/pages/home.html">
-    
+    <link rel="prefetch" href="/ajax/pages/about.html">
+    <link rel="prefetch" href="ajax/pages/buy-gold.html">
+    <link rel="prefetch" href="ajax/pages/sell-gold.html">
+    <link rel="prefetch" href="ajax/pages/pawn-gold.html">
+    <link rel="prefetch" href="ajax/pages/contact.html">
+    <link rel="prefetch" href="ajax/pages/home.html">
+
 </head>
 
 <body>
@@ -236,7 +236,7 @@
         </div>
         <div class="copyright">
             <p>&copy; 2025 Delhi Jewellers. All rights reserved.</p>
-            <p><a href="tos.txt" target="_blank" class="text-light">Terms of Service</a> | 
+            <p><a href="tos.txt" target="_blank" class="text-light">Terms of Service</a> |
                 <a href="privacy-policy.txt" target="_blank" class="text-light">Privacy Policy</a>
             </p>
 
@@ -267,7 +267,8 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header bg-primary text-white">
-                    <h5 class="modal-title" id="newAddressModalLabel">📢 We've Moved to a New Location! NEW LOCATION IS NOW OPEN</h5>
+                    <h5 class="modal-title" id="newAddressModalLabel">📢 We've Moved to a New Location! NEW LOCATION IS
+                        NOW OPEN</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -276,9 +277,9 @@
                     <p>We are excited to announce that we have relocated to a new location. Please visit our new
                         address:</p>
                     <address>
-                       Stockland Point Cook<br>
-                       310/2 Main Street<br>
-                       Point Cook VIC 3030<br>
+                        Stockland Point Cook<br>
+                        310/2 Main Street<br>
+                        Point Cook VIC 3030<br>
                         Email: <a href="mailto:info@delhijewellers.com.au">info@delhijewellers.com.au</a><br>
                         Phone: 0493536042<br>
                     </address>
@@ -323,12 +324,22 @@
             });
         });
 
-        var myModalEl = document.getElementById('newAddressModal');
 
-        if (myModalEl) {
-            var newAddressModal = new bootstrap.Modal(myModalEl);
-            newAddressModal.show();
+        var cutoffDate = new Date("2025-11-26");
+        var currentDate = new Date();
+        if (currentDate < cutoffDate) {
+            var myModalEl = document.getElementById('newAddressModal');
+            if (myModalEl) {
+                var newAddressModal = new bootstrap.Modal(myModalEl);
+                newAddressModal.show();
+            }
+        } else {
+
+            console.log("TNot shown");
+           
         }
+
+
     </script>
 </body>
 
